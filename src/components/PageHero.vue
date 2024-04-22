@@ -8,9 +8,9 @@
     <section class="position-relative d-flex">
         <div class="position-absolute top-50 start-0 translate-middle-y">
             <ul class="text-white rounded p-2">
-                <li><i class="fa-solid fa-cart-shopping"></i></li>
-                <li><i class="fa-solid fa-book-open"></i></li>
-                <li><i class="fa-solid fa-spinner"></i></li>
+                <li><a href="#"><i class="fa-solid fa-cart-shopping"></i></a></li>
+                <li><a href="#"><i class="fa-solid fa-book-open"></i></a></li>
+                <li><a href="#"><i class="fa-solid fa-spinner"></i></a></li>
             </ul>
         </div>
         <div class="text-center ms-container text-white p-5">
@@ -30,6 +30,9 @@
         background-position: center;
         background-repeat: no-repeat;
         height: 500px;
+        a{
+            color: $brand-tertiary;
+        }
     }
     ul{
         background-color: $brand-secondary;
