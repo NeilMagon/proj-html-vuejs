@@ -5,7 +5,7 @@
 </script>
 
 <template>
-    <section class="p-5">
+    <section class="p-5 ms-bg-img">
         <div class="container">
             <div class="row gx-5">
                 <div class="col">
@@ -27,11 +27,28 @@
             </div>
         </div>
     </section>
+    <section class="py-5">
+        <div class="text-center">
+            <h1 class="py-3">Faculties available at EduPrime</h1>
+            <p>A single university with a load of courses, tailored <br> to satisfy any student's needs.</p>
+            <div class="">
+                <div class="container">
+                    <div class="row">
+                        <div class="col ms-border">dssd</div>
+                        <div class="col ms-border">dsds</div>
+                        <div class="col ms-border">dsds</div>
+                        <div class="col ms-border">dsds</div>
+                        <div class="col ms-border">dsds</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 </template>
 
 <style scoped lang="scss">
     @use '../style/partials/variables' as *;
-    section{
+    .ms-bg-img{
         background-image: url('../assets/img/img/home-background.png');
         background-size: cover;
         background-position: center;
@@ -45,13 +62,16 @@
                 object-fit: contain;
                 object-position: left;
             }
-        h1{
-            font-weight: bold;  
-        }
         .ms-button{
             background-color: $brand-secondary;
             border-radius: 30px;
             font-weight: bold;
         }
+    }
+    h1{
+            font-weight: bold;  
+        }
+    .ms-border{
+        border: 1px solid #ECECEE;
     }
 </style>
