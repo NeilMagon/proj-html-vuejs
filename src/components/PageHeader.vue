@@ -7,7 +7,7 @@
 <template>
     <nav class="navbar">
         <div class="container-fluid px-5 pt-4">
-            <div class="navbar-brand">
+            <div class="ms-img">
                 <img src="../assets/img/img/theme_eduprime_logo.png" alt="logo-eduprime">
             </div>
             <div class="d-flex align-items-center justify-content-between gap-3" id="navbarNav">
