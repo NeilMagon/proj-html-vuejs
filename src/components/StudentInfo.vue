@@ -27,18 +27,51 @@
             </div>
         </div>
     </section>
-    <section class="py-5">
-        <div class="text-center">
-            <h1 class="py-3">Faculties available at EduPrime</h1>
-            <p>A single university with a load of courses, tailored <br> to satisfy any student's needs.</p>
-            <div class="">
+    <section>
+        <div class="text-center ms-b-border">
+            <h1 class="pt-5">Faculties available at EduPrime</h1>
+            <p class="py-3">A single university with a load of courses, tailored <br> to satisfy any student's needs.</p>
+            <div class="shadow">
                 <div class="container">
                     <div class="row">
-                        <div class="col ms-border">dssd</div>
-                        <div class="col ms-border">dsds</div>
-                        <div class="col ms-border">dsds</div>
-                        <div class="col ms-border">dsds</div>
-                        <div class="col ms-border">dsds</div>
+                        <div class="col py-5 ms-border text-center ms-back">
+                            <img class="ms-image immagine-colorata" src="../assets/img/img/Gavel-v2.png" alt="Low Faculty">
+                            <p class="pt-3 text-white">Low Faculty</p>
+                        </div>
+                        <div class="col py-5 ms-border text-center">
+                            <img class="ms-image" src="../assets/img/img/Coins-tabs-v2.png" alt="Low Faculty">
+                            <p class="pt-3">Economy</p>
+                        </div>
+                        <div class="col py-5 ms-border text-center">
+                            <img class="ms-image" src="../assets/img/img/Medicine-tabs-v2.png" alt="Low Faculty">
+                            <p class="pt-3">Medicine</p>
+                        </div>
+                        <div class="col py-5 ms-border text-center">
+                            <img class="ms-image" src="../assets/img/img/Computer-tabs-v2.png" alt="Low Faculty">
+                            <p class="pt-3">Computer Science</p>
+                        </div>
+                        <div class="col py-5 ms-border text-center">
+                            <img class="ms-image" src="../assets/img/img/Palette-tabs-v2.png" alt="Low Faculty">
+                            <p class="pt-3">Graphic Design</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row mt-5 gx-5">
+                    <div class="col my-5">
+                        <div>
+                            <img src="../assets/img/img/Gavel-Illustration-e1556884768193.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col text-start my-5">
+                        <h1 class="mt-3">Law Faculty</h1>
+                        <p class="my-5">
+                            Learning from world-leading academics and practitioners, you'll not only receive an 
+                            outstanding grounding in the theory of law, but you will be able to understand how those principles are applied in practice
+                            through a range of student-led activities and competitions
+                        </p>
+                        <button class="px-5 py-3 btn ms-btn text-white">Read More</button>
                     </div>
                 </div>
             </div>
@@ -56,22 +89,41 @@
         .ms-img{
             height: 40px;
         }
-        img{
-                height: 100%;
-                width: 100%;
-                object-fit: contain;
-                object-position: left;
-            }
         .ms-button{
             background-color: $brand-secondary;
             border-radius: 30px;
             font-weight: bold;
         }
+    img{
+            height: 100%;
+            width: 100%;
+            object-fit: contain;
+            object-position: left;
+        }
     }
     h1{
-            font-weight: bold;  
+        font-weight: bold;  
         }
     .ms-border{
         border: 1px solid #ECECEE;
+        cursor: pointer;
+        .ms-image{
+            width: 100px;
+        }
+        &.ms-back{
+            background-color: $brand-primary;
+        }
+        .immagine-colorata{
+            filter: saturate(0%);
+        }
+        p{
+            color : $brand-primary;
+            font-weight: bold;
+        }
+    }
+    .ms-btn{
+        background-color: $brand-primary;
+        border-radius: 30px;
+        font-weight: bold;
     }
 </style>
