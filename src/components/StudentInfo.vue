@@ -20,7 +20,7 @@
                     <button class="ms-button btn px-4 py-3 text-white">Browse through courses</button>
                 </div>
                 <div class="col">
-                    <div class="">
+                    <div>
                         <img src="../assets/img/img/Graduation-Illustration.png" alt="">
                     </div>
                 </div>
@@ -87,7 +87,7 @@
         background-position: center;
         background-repeat: no-repeat;
         .ms-img{
-            height: 40px;
+            width: 50px;
         }
         .ms-button{
             background-color: $brand-secondary;

@@ -5,7 +5,7 @@
 </script>
 
 <template>
-    <section>
+    <section class="pb-5">
         <div class="container">
             <h1>Latest Courses</h1>
             <div class="row gap-5 my-5">
@@ -48,6 +48,52 @@
             </div>
         </div>
     </section>
+    <section class="p-5">
+        <div class="container">
+            <div class="row gx-5">
+                <div class="col">
+                    <div class="ms-image">
+                        <img src="../assets/img/img/Exam-icon.png" alt="">
+                    </div>
+                    <h1 class="mt-3">The most efficient examination method</h1>
+                    <p class="my-5">
+                        EduPrime has gathered teachers from around the globe to braibstorm in order to facilitate
+                        the evaluation of our students. Every teacher from our university has an 
+                        influence on how students are evaluated at her/his subject.
+                    </p>
+                    <button class="ms-button btn rounded-5 px-4 py-3 text-white">Discover the Method</button>
+                </div>
+                <div class="col">
+                    <div>
+                        <img src="../assets/img/img/Exam-Illustration.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="pt-5">
+        <div class="container">
+            <div class="row gx-5">
+                <div class="col">
+                    <div>
+                        <img src="../assets/img/img/Girl-Illustration.png" alt="">
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="ms-image">
+                        <img src="../assets/img/img/Exam-icon-1.png" alt="">
+                    </div>
+                    <h1 class="mt-3">The most efficient examination method</h1>
+                    <p class="my-5">
+                        EduPrime has gathered teachers from around the globe to braibstorm in order to facilitate
+                        the evaluation of our students. Every teacher from our university has an 
+                        influence on how students are evaluated at her/his subject.
+                    </p>
+                    <button class="ms-button btn rounded-5 px-4 py-3 text-white">Discover the Method</button>
+                </div>
+            </div>
+        </div>
+    </section>
 </template>
 
 <style scoped lang="scss">
@@ -72,5 +118,11 @@
                 font-size: 10px;
             }
         }
+        .ms-image{
+            width: 50px;
+        }
+    }
+    img{
+        width: 100%;
     }
 </style>
