@@ -47,12 +47,59 @@
             </div>
         </div>
     </section>
-    <section class="text-center">
+    <section class="text-center pt-5">
         <div class="container">
             <img class="ms-image" src="../assets/img/img/Clock-and-Bell.png" alt="">
-            <h1>Upcoming Events</h1>
+            <h1 class="p-4 text-white">Upcoming Events</h1>
+            <div class="row gap-5 pt-3 mb-5">
+                <div class="col bg-white rounded-4">
+                    <div class="p-4 position-relative">
+                        <h3>Coaching Sessions</h3>
+                        <p class="text-c"><i class="fa-regular fa-calendar-days"></i> 20 May 21.30 PM</p>
+                        <p class="text-c">Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                            Dolor illum adipisci porro beatae consequuntur inventore eligendi, 
+                            earum quibusdam cum ipsa fuga aut corporis et! 
+                        </p>
+                        <div class="position-absolute top-100 start-50 translate-middle">
+                            <button class="px-3 py-2 shadow rounded-5 ms-button btn text-white"><i class="fa-solid fa-plus"></i> Find More</button>
+                        </div>
+                    </div>
+                </div>   
+                <div class="col bg-white rounded-4">
+                    <div class="p-4 position-relative">
+                        <h3>Coaching Sessions</h3>
+                        <p class="text-c"><i class="fa-regular fa-calendar-days"></i> 24 Mar 18.00 PM</p>
+                        <p class="text-c">Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                            Dolor illum adipisci porro beatae consequuntur inventore eligendi, 
+                            earum quibusdam cum ipsa fuga aut corporis et! 
+                        </p>
+                        <div class="position-absolute top-100 start-50 translate-middle">
+                            <button class="px-3 py-2 shadow rounded-5 ms-button btn text-white"><i class="fa-solid fa-plus"></i> Find More</button>
+                        </div>
+                    </div>
+                </div>   
+                <div class="col bg-white rounded-4">
+                    <div class="p-4 position-relative">
+                        <h3>Coaching Sessions</h3>
+                        <p class="text-c"><i class="fa-regular fa-calendar-days"></i> 12 Feb 13.30 PM</p>
+                        <p class="text-c">Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                            Dolor illum adipisci porro beatae consequuntur inventore eligendi, 
+                            earum quibusdam cum ipsa fuga aut corporis et! 
+                        </p>
+                        <div class="position-absolute top-100 start-50 translate-middle">
+                            <button class="px-3 py-2 shadow rounded-5 ms-button btn text-white"><i class="fa-solid fa-plus"></i> Find More</button>
+                        </div>
+                    </div>
+                </div>   
+            </div>
+            <div class="p-5">
+                <button class="px-5 ms-bg py-4 shadow rounded-5 ms-button btn text-white">View All Events</button>
+            </div>
         </div>
     </section>
+    <div class="ms-img">
+        <img src="../assets/img/svg/svg-1.svg" alt="">
+    </div>
 </template>
 
 <style scoped lang="scss">
@@ -75,6 +122,17 @@
         h1{
             
             font-weight: bold;
+        }
+        .text-c{
+            color: grey;
+        }
+        .ms-button{
+            background-color: $brand-primary;
+            font-weight: bold;
+            font-size: 14px;
+        }
+        .ms-bg{
+            background-color: $brand-secondary;
         }
     }
 </style>
