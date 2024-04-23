@@ -12,9 +12,15 @@
 </script>
 
 <template>
-	<PageHeader></PageHeader>
-	<PageMain></PageMain>
-	<PageFooter></PageFooter>
+	<header>
+		<PageHeader></PageHeader>
+	</header>
+	<main>
+		<PageMain></PageMain>
+	</main>
+	<footer>
+		<PageFooter></PageFooter>
+	</footer>
 </template>
 
 <style scoped lang="scss">
