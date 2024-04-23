@@ -48,7 +48,7 @@
             </div>
         </div>
     </section>
-    <section class="p-5">
+    <section class="py-5">
         <div class="container">
             <div class="row gx-5">
                 <div class="col">
@@ -71,7 +71,7 @@
             </div>
         </div>
     </section>
-    <section class="pt-5">
+    <section class="py-5">
         <div class="container">
             <div class="row gx-5">
                 <div class="col">
@@ -83,13 +83,13 @@
                     <div class="ms-image">
                         <img src="../assets/img/img/Exam-icon-1.png" alt="">
                     </div>
-                    <h1 class="mt-3">The most efficient examination method</h1>
+                    <h1 class="mt-3">Variable fees for international students</h1>
                     <p class="my-5">
                         EduPrime has gathered teachers from around the globe to braibstorm in order to facilitate
                         the evaluation of our students. Every teacher from our university has an 
                         influence on how students are evaluated at her/his subject.
                     </p>
-                    <button class="ms-button btn rounded-5 px-4 py-3 text-white">Discover the Method</button>
+                    <button class="ms-button btn rounded-5 px-4 py-3 text-white">List of Fees</button>
                 </div>
             </div>
         </div>
