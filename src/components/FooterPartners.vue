@@ -22,6 +22,23 @@
             </div>
         </div>
     </section>
+    <section class="py-5">
+        <div class="container text-center">
+            <h1>Partners</h1>
+            <p class="my-5">
+                Leverage agile frameworks to provide a robust synopsis for hight level <br>
+                overviews. Iterative approaches to corporate strategy.
+            </p>
+            <div class="d-flex ms-img">
+                <div class="ms-img">
+                    <img src="../assets/img/img/partner-2.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="ms-image">
+            <img src="../assets/img/img/background-wave3.png" alt="">
+        </div>
+    </section>
 </template>
 
 <style scoped lang="scss">
@@ -39,6 +56,13 @@
                 background-color: $brand-secondary;
             }
         }
-
+        .ms-image{
+            width: 100%;
+            height: 250px;
+            img{
+                width: 100%; 
+                height: 100%;
+            }
+        }
     }
 </style>
