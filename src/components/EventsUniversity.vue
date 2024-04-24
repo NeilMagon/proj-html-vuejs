@@ -52,7 +52,7 @@
             <img class="ms-image" src="../assets/img/img/Clock-and-Bell.png" alt="">
             <h1 class="p-4 text-white">Upcoming Events</h1>
             <div class="row gap-5 pt-3 mb-5">
-                <div class="col bg-white rounded-4">
+                <div class="col shadow bg-white rounded-4">
                     <div class="p-4 position-relative">
                         <h3>Coaching Sessions</h3>
                         <p class="text-c"><i class="fa-regular fa-calendar-days"></i> 20 May 21.30 PM</p>
@@ -65,7 +65,7 @@
                         </div>
                     </div>
                 </div>   
-                <div class="col bg-white rounded-4">
+                <div class="col shadow bg-white rounded-4">
                     <div class="p-4 position-relative">
                         <h3>Coaching Sessions</h3>
                         <p class="text-c"><i class="fa-regular fa-calendar-days"></i> 24 Mar 18.00 PM</p>
@@ -78,7 +78,7 @@
                         </div>
                     </div>
                 </div>   
-                <div class="col bg-white rounded-4">
+                <div class="col shadow bg-white rounded-4">
                     <div class="p-4 position-relative">
                         <h3>Coaching Sessions</h3>
                         <p class="text-c"><i class="fa-regular fa-calendar-days"></i> 12 Feb 13.30 PM</p>
