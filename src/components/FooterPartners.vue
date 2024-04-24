@@ -1,6 +1,40 @@
 <script>
+    import CardImg from './CardImg.vue';
 	export default {
         name: 'FooterPartners',
+        components: {
+            CardImg
+        },
+        data() {
+            return {
+                infos: [
+                    {
+                        url:"../assets/img/img/partner-2.png"
+                    },
+                    {
+                        url:"../assets/img/img/partner-3.png"
+                    },
+                    {
+                        url:"../assets/img/img/partner-4.png"
+                    },
+                    {
+                        url:"../assets/img/img/partner-5.png"
+                    },
+                    {
+                        url:"../assets/img/img/partner-6.png"
+                    },
+                    {
+                        url:"../assets/img/img/partner-8.png"
+                    },
+                    {
+                        url:"../assets/img/img/partner-1.png"
+                    },
+                    {
+                        url:"../assets/img/img/partner-7.png"
+                    },
+                ]
+            }
+        },
     }
 </script>
 
@@ -29,10 +63,8 @@
                 Leverage agile frameworks to provide a robust synopsis for hight level <br>
                 overviews. Iterative approaches to corporate strategy.
             </p>
-            <div class="d-flex ms-img">
-                <div class="ms-img">
-                    <img src="../assets/img/img/partner-2.png" alt="">
-                </div>
+            <div class="d-flex justify-content-center gap-4">
+                <CardImg v-for="info in infos" :cardinfo="info"></CardImg>
             </div>
         </div>
         <div class="ms-image">
@@ -43,6 +75,10 @@
 
 <style scoped lang="scss">
     @use '../style/partials/variables' as *;
+    img{
+                width: 100%; 
+                height: 100%;
+            }
     section{
         &.ms-bg{
             background-color: $brand-primary;
@@ -59,10 +95,6 @@
         .ms-image{
             width: 100%;
             height: 200px;
-            img{
-                width: 100%; 
-                height: 100%;
-            }
         }
     }
 </style>
