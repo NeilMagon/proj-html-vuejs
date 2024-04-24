@@ -34,9 +34,12 @@
             <div class="shadow">
                 <div class="container">
                     <div class="row">
-                        <div class="col py-5 ms-border text-center ms-back">
+                        <div class="col py-5 ms-border text-center ms-back position-relative">
                             <img class="ms-image immagine-colorata" src="../assets/img/img/Gavel-v2.png" alt="Low Faculty">
                             <p class="pt-3 text-white">Low Faculty</p>
+                            <div class="position-absolute top-100 start-50 translate-middle">
+                                <i class="fa-solid fa-caret-down"></i>
+                            </div>
                         </div>
                         <div class="col py-5 ms-border text-center">
                             <img class="ms-image" src="../assets/img/img/Coins-tabs-v2.png" alt="Low Faculty">
@@ -112,6 +115,10 @@
         }
         &.ms-back{
             background-color: $brand-primary;
+            i{
+                color: $brand-primary;
+                font-size: 40px;
+            }
         }
         .immagine-colorata{
             filter: saturate(0%);
