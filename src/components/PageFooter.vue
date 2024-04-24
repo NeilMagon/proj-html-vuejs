@@ -6,7 +6,7 @@
         components: {
             FooterPartners,
             FooterInfo
-        }
+        },
     }
 </script>
 

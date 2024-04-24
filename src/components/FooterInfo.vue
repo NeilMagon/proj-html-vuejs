@@ -1,6 +1,24 @@
 <script>
+    import CardFooter from './CardFooter.vue';
 	export default {
         name: 'FooterInfo',
+        components: {
+            CardFooter,
+        },
+        data() {
+            return {
+                infos: [
+                    {
+                        "title": "Get EduPrime",
+                        "link": ["Request a website", "Browse Themes", "Payment options", "Support System", "Checkout", "Purchase Theme"]
+                    },
+                    {
+                        "title": "Networking",
+                        "link": ["Purchase Theme", "Our Benefits", "Our Team", "Our Services", "Other Products", "My account"]
+                    },
+                ]
+            }
+        },
     }
 </script>
 
@@ -12,7 +30,7 @@
                     <div class="ms-img pb-3">
                         <img src="../assets/img/img/theme_eduprime_logo.png" alt="logo-eduprime">
                     </div>
-                    <p class="py-4">
+                    <p class="py-4 text-white">
                         EduPrime is the most versatile WordPress theme for educational purpose, 
                         showcasing universities, courses, secondary schools etc.
                     </p>
@@ -20,58 +38,7 @@
                     <button class="btn mx-3 rounded-circle ms-small-btn text-white"><i class="fa-brands fa-twitter"></i></button>
                     <button class="btn rounded-circle ms-small-btn text-white"><i class="fa-brands fa-instagram"></i></button>
                 </div>
-                <div class="col-2 text-white">
-                    <h5>Get EduPrime</h5>
-                    <ul class="navbar-nav pt-3">
-                        <li class="nav-item">
-                            <a class="nav-link ms-active" aria-current="page" href="#">Home </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Courses </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">About us</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link " href="#">News </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link " href="#">Pages </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link " href="#">Contact</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link " href="#">Purchase</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="col-2 text-white">
-                    <h5>Get EduPrime</h5>
-                    <ul class="navbar-nav pt-3">
-                        <li class="nav-item">
-                            <a class="nav-link ms-active" aria-current="page" href="#">Home </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Courses </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">About us</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link " href="#">News </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link " href="#">Pages </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link " href="#">Contact</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link " href="#">Purchase</a>
-                        </li>
-                    </ul>
-                </div>
+                <CardFooter v-for="info, index in infos" :footerInfo="info"></CardFooter>
                 <div class="col-4 text-end">
                     <div class="input-group position-relative mb-5">
                         <input type="email" class="form-control rounded-5 py-3" placeholder="Email Address..." aria-label="Indirizzo email" aria-describedby="basic-addon2">
@@ -83,13 +50,13 @@
                     </div>
                     <h6 class="text-white">Search categories</h6>
                     <div class="d-flex flex-wrap gap-3 justify-content-end py-4 text-white">
-                        <span>ECONOMY</span>
-                        <span>ECONOMY</span>
-                        <span>ECONOMY</span>
-                        <span>ECONOMY</span>
-                        <span>ECONOMY</span>
-                        <span>ECONOMY</span>
-                        <span>ECONOMY</span>
+                        <span class="p-2 rounded-4">ECONOMY</span>
+                        <span class="p-2 rounded-4">DESIGN</span>
+                        <span class="p-2 rounded-4">COACHING</span>
+                        <span class="p-2 rounded-4">BUSINESS</span>
+                        <span class="p-2 rounded-4">MEDICINE</span>
+                        <span class="p-2 rounded-4">LAW</span>
+                        <span class="p-2 rounded-4">FITNESS</span>
                     </div>
                     <p class="ms-p">ModelTheme. All rights reserved.</p>
                 </div>
@@ -124,6 +91,10 @@
         }
         .ms-p{
             color: $brand-secondary;
+        }
+        span{
+            font-size: 10px;
+            border: 1px solid;
         }
     }
 </style>
