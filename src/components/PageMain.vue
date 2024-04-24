@@ -1,9 +1,11 @@
 <script>
+    // Import components
     import StudentInfo from './StudentInfo.vue';
     import EventsUniversity from './EventsUniversity.vue';
     import CoursesInfo from './CoursesInfo.vue';
 	export default {
         name: 'PageMain',
+        // Name components
         components: {
             StudentInfo,
             EventsUniversity,
@@ -13,8 +15,11 @@
 </script>
 
 <template>
+    <!-- Top-main -->
     <StudentInfo></StudentInfo>
+    <!-- Central-main -->
     <EventsUniversity></EventsUniversity>
+    <!-- Bottom-main -->
     <CoursesInfo></CoursesInfo>
 </template>
 

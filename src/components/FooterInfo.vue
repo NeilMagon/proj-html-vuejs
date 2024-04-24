@@ -6,6 +6,7 @@
             CardFooter,
         },
         data() {
+            // Array di oggetti contenente le informazioni del footer
             return {
                 infos: [
                     {
@@ -26,6 +27,7 @@
     <section class="py-5 ms-bg position-relative">
         <div class="container mt-5">  
             <div class="row pt-5">
+                <!-- Left-col -->
                 <div class="col-4">
                     <div class="ms-img pb-3">
                         <img src="../assets/img/img/theme_eduprime_logo.png" alt="logo-eduprime">
@@ -34,12 +36,17 @@
                         EduPrime is the most versatile WordPress theme for educational purpose, 
                         showcasing universities, courses, secondary schools etc.
                     </p>
+                    <!-- Social-button -->
                     <button class="btn rounded-circle ms-small-btn text-white"><i class="fa-brands fa-facebook-f"></i></button>
                     <button class="btn mx-3 rounded-circle ms-small-btn text-white"><i class="fa-brands fa-twitter"></i></button>
                     <button class="btn rounded-circle ms-small-btn text-white"><i class="fa-brands fa-instagram"></i></button>
                 </div>
+                <!-- Central-col -->
+                <!-- Ciclo l'array per passarlo al figlio tramite props -->
                 <CardFooter v-for="info, index in infos" :footerInfo="info"></CardFooter>
+                <!-- Right-col -->
                 <div class="col-4 text-end">
+                    <!-- Input-search -->
                     <div class="input-group position-relative mb-5">
                         <input type="email" class="form-control rounded-5 py-3" placeholder="Email Address..." aria-label="Indirizzo email" aria-describedby="basic-addon2">
                         <div class="position-absolute end-0 ">
@@ -48,6 +55,7 @@
                             </button>
                         </div>
                     </div>
+                    <!-- Categories -->
                     <h6 class="text-white">Search categories</h6>
                     <div class="d-flex flex-wrap gap-3 justify-content-end py-4 text-white">
                         <span class="p-2 rounded-4">ECONOMY</span>
@@ -62,6 +70,7 @@
                 </div>
             </div>
         </div>
+        <!-- Button -->
         <div class="position-absolute ms-position mt-5 d-flex gap-2 p-2 align-items-center rounded-5 shadow">
             <div class="ms-image">
                 <img src="../assets/img/svg/svg-2.svg" alt="logo-eduprime">

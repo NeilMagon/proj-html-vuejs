@@ -1,9 +1,11 @@
 <script>
 	export default {
         name: 'CardImg',
+        // Props
         props: {
             cardinfo: Object,
         },
+        // Funzione per generare immagini
         methods: {
             generateImage(name) {
                 return new URL(`${name}`, import.meta.url).href
@@ -13,6 +15,7 @@
 </script>
 
 <template>
+    <!-- Img-card -->
     <div class="ms-img">
         <img :src="generateImage(cardinfo.url)" alt="">
     </div>

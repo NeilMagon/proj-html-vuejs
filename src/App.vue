@@ -1,9 +1,11 @@
 <script>
+	// Import components
 	import PageHeader from './components/PageHeader.vue';
 	import PageHero from './components/PageHero.vue';
     import PageMain from './components/PageMain.vue';
 	import PageFooter from './components/PageFooter.vue';
 	export default{
+		// Name components
 		components: {
 			PageHeader,
 			PageHero,
@@ -14,7 +16,7 @@
 </script>
 
 <template>
-	<header>
+	<header> 
 		<PageHeader></PageHeader>
 	</header>
 	<main>

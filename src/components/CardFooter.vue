@@ -1,6 +1,7 @@
 <script>
 	export default {
         name: 'CardFooter',
+           // Props
         props: {
             footerInfo: Object,
         },
@@ -8,6 +9,7 @@
 </script>
 
 <template>
+    <!-- List-info-footer -->
 	<div class="col-2 text-white">
         <h5>{{footerInfo.title}}</h5>
         <ul class="navbar-nav pt-3">

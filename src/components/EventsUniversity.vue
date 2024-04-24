@@ -11,8 +11,10 @@
     <section class="text-center">
         <div class="container py-5">
             <img class="ms-image" src="../assets/img/img/Clock-and-Bell.png" alt="">
+            <!-- Title -->
             <h1 class="my-4 text-white ms-text-bg">University Year</h1>
             <div class="row py-5">
+                <!-- Info-top -->
                 <div class="col col-4 text-white offset-3 text-center">
                     <h5>Demo Classes</h5>
                     <p>
@@ -29,6 +31,7 @@
                 </div>
             </div>
             <img src="../assets/img/img/Timeline-Item.png" alt="">
+             <!-- Info-bottom -->
             <div class="row">
                 <div class="col col-4 text-white offset-1 text-center">
                     <h5>Orientation</h5>
@@ -48,13 +51,18 @@
         </div>
     </section>
     <section class="text-center pt-5">
+        <!-- Upcoming-events -->
         <div class="container">
             <img class="ms-image" src="../assets/img/img/Clock-and-Bell.png" alt="">
+            <!-- Title -->
             <h1 class="p-4 text-white">Upcoming Events</h1>
             <div class="row gap-5 pt-3 mb-5">
+                <!-- Col-left -->
                 <div class="col shadow bg-white rounded-4">
                     <div class="p-4 position-relative">
+                        <!-- Title -->
                         <h3>Coaching Sessions</h3>
+                        <!-- Text -->
                         <p class="text-c"><i class="fa-regular fa-calendar-days"></i> 20 May 21.30 PM</p>
                         <p class="text-c">Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
                             Dolor illum adipisci porro beatae consequuntur inventore eligendi, 
@@ -64,10 +72,13 @@
                             <button class="px-3 py-2 shadow rounded-5 ms-button btn text-white"><i class="fa-solid fa-plus"></i> Find More</button>
                         </div>
                     </div>
-                </div>   
+                </div>  
+                <!-- Col-central --> 
                 <div class="col shadow bg-white rounded-4">
                     <div class="p-4 position-relative">
+                        <!-- Title -->
                         <h3>Coaching Sessions</h3>
+                        <!-- Text -->
                         <p class="text-c"><i class="fa-regular fa-calendar-days"></i> 24 Mar 18.00 PM</p>
                         <p class="text-c">Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
                             Dolor illum adipisci porro beatae consequuntur inventore eligendi, 
@@ -78,9 +89,12 @@
                         </div>
                     </div>
                 </div>   
+                <!-- Col-right -->
                 <div class="col shadow bg-white rounded-4">
                     <div class="p-4 position-relative">
+                        <!-- Title -->
                         <h3>Coaching Sessions</h3>
+                        <!-- Text -->
                         <p class="text-c"><i class="fa-regular fa-calendar-days"></i> 12 Feb 13.30 PM</p>
                         <p class="text-c">Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
                             Dolor illum adipisci porro beatae consequuntur inventore eligendi, 
@@ -92,6 +106,7 @@
                     </div>
                 </div>   
             </div>
+            <!-- Button -->
             <div class="p-5">
                 <button class="px-5 ms-bg py-4 shadow rounded-5 ms-button btn text-white">View All Events</button>
             </div>
