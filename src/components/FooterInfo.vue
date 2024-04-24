@@ -23,8 +23,8 @@
 </script>
 
 <template>
-    <section class="py-5 ms-bg">
-        <div class="container mt-5">
+    <section class="py-5 ms-bg position-relative">
+        <div class="container mt-5">  
             <div class="row pt-5">
                 <div class="col-4">
                     <div class="ms-img pb-3">
@@ -62,6 +62,21 @@
                 </div>
             </div>
         </div>
+        <div class="position-absolute ms-position mt-5 d-flex gap-2 p-2 align-items-center rounded-5 shadow">
+            <div class="ms-image">
+                <img src="../assets/img/svg/svg-2.svg" alt="logo-eduprime">
+            </div>
+            <a href="#">Purchase Theme</a>
+        </div>
+        <div class="position-absolute ms-position d-flex gap-2 p-2 align-items-center rounded-5 shadow">
+            <div class="ms-image">
+                <img src="../assets/img/svg/svg-3.svg" alt="logo-eduprime">
+            </div>
+            <a href="#">Related Themes</a>
+        </div>
+        <div class="position-absolute ms-position-btn d-flex align-items-center rounded-5 shadow">
+            <button class="btn text-white"><i class="fa-solid fa-chevron-up"></i></button>
+        </div>
     </section>
 </template>
 
@@ -96,5 +111,26 @@
             font-size: 10px;
             border: 1px solid;
         }
+    }
+    .ms-position{
+        top: 80%;
+        left: 2%;
+        background-color: #434959;
+        width: 170px;
+        .ms-image{
+            width: 20px;
+            img{
+                width: 100%;
+            }
+        }
+        a{
+            text-decoration: none;
+            color: grey;
+        }
+    }
+    .ms-position-btn{
+        background-color: $brand-secondary;
+        top: 90%;
+        right: 2%;
     }
 </style>
